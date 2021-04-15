@@ -1,31 +1,19 @@
 """Çocuklar için Python, Bülent Çobanoğlu
-Proje 5.7
-Tablo:
-Yaş	            İndirim Oranı
-0 - 6 arası	    Free
-7 – 12 arası	%50
-13 – 26 arası	%20
-27 - 59	        %0 (indirim yok)
-60 – 64	        %20
-65 ve üzeri 	%50
-TCDD trenlerinde bilet fiyatında yaşa göre yapılacak indirimler yanda verilen tabloya göre hesaplanmaktadır.
-Girilen yaş değerine göre indirimli bilet fiyatını gösteren programı kodlayalım.
-
+Proje 5.7. Başarı Notunu Harfli Sisteme Dönüştürme
 """
-Fiyat = 100
-yas = int (input('Yaşınız.:'))
-print ("Normal Bilet Fiyatı.:", Fiyat)
-if yas>0 and yas<=6:
-    iFyt = 0 #ücretsiz
-elif yas>=7 and yas<=12:
-    iFyt=Fiyat/2 # %50 indirim
-elif yas>=13 and yas<=26:
-    iFyt=Fiyat- Fiyat*0.20
-elif yas>=27 and yas<=59:
-    iFyt=Fiyat #indirim yok
-elif yas>=60 and yas<=64:
-    iFyt=Fiyat- Fiyat*0.20
-elif yas>=65:
-    iFyt=Fiyat/2 #%50 indirim
-
-print ("İndirimli Bilet Fiyatı.:", iFyt)
+Nt=int(input('Gir Notu.: '))
+print ("Ders Notu.:")
+if Nt >= 90 and Nt<=100:
+	print ("A")
+elif Nt >= 80 and Nt<=89:
+	print ("B")
+elif Nt >= 70 and Nt<=79:
+	print ("C")
+elif Nt >= 60 and Nt<=69:
+	print ("D")
+elif Nt >= 50 and Nt<=59:
+	print ("E")
+elif Nt >= 0 and Nt<=49:
+	print ("F")
+else:
+	print ("Lütfen 0-100 arası not giriniz!")
