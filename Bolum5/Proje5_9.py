@@ -1,7 +1,6 @@
 """
 Çocuklar için Python, Bülent Çobanoğlu
-Karar Ağacı Oyunu:
-Proje 5.8. 
+Proje 5.9. Karar Ağacı Oyunu:
 “Telefon, Radyo, TV, Kamera, Saat” gibi bir elektronik eşyayı aklımızdan tutalım.
 Bilgisayara bu elektronik nesneyi, aşağıdakine benzer bir karar ağacını kodlayarak buldurmaya çalışalım. 
 
