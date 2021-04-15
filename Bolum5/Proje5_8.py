@@ -1,12 +1,12 @@
 #Çocuklar için Python, Bülent Çobanoğlu
 # -*- coding: utf-8 -*-
 """Proje5_8.py : TCDD İndirimli Bilet Fiyatlandırması
-Yaş 			İndirim Oranı
+Yaş 		İndirim Oranı
 0 - 6 arası 	Ücretsiz
 7 – 12 arası 	%50
 13 – 26 arası 	%20
-27 - 59 		%0	
-60 – 64 		%20
+27 - 59 	%0	
+60 – 64 	%20
 65 ve üzeri 	%50
 Girilen yaş değerine göre indirimli bilet fiyatını gösteren programı kodlayalım.
 """ 
