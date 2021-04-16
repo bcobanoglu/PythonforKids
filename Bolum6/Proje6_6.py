@@ -1,5 +1,5 @@
 """Herkes için Python, Bülent Çobanoğlu
-Proje 6.5. 
+Proje 6.6. 
 A dan Z ye kadar İngilizce karakterleri ekranda gösteren programı while döngüsü ile kodlayalım.
 Not. ASCII kod tablosunda yer alan karakterleri ve sayısal değerlerin tamamını görmek için
 http://www.asciitable.com/ adresini inceleyebilirsiniz.
