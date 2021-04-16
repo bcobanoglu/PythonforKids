@@ -1,6 +1,6 @@
 """
 Bülent Çobanoğlu, Çocuklar için Python
-Proje 9.8. 
+Proje 9.9. 
 Kuyruğa eleman ekleme ve çıkarma işlemlerini liste fonksiyonlarını kullanarak gerçekleştirelim.
 
 """
