@@ -1,5 +1,5 @@
 """Çocuklar için Python, Bülent Çobanoğlu
-Proje 7. 
+Proje 6.9. Hesap Makinesi: 
 Dört işlem (toplama, çıkarma, çarpma ve bölme) yapan basit bir hesap makinesi uygulamasını 
 kullanıcının devam etmek isteyip/istememesine göre kodlayalım. 
 """
