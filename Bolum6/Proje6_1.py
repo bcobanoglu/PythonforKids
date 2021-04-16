@@ -1,6 +1,11 @@
 """
 Çocuklar için Python, Bülent Çobanoğlu
-Proje 6.1. Belli bir aralıktaki (0’dan 52’e kadar ki) çift sayıları ekranda gösteren programı for döngüsü ile kodlayalım.
+Proje 6.1. “Ali” Listede mi?
+Verilen bir listedeki adları alt alta ekrana yazdıran programı kodlayalım.
 """
-for a in range(0,52,2):
-    print(a, end=' ')
+liste = ["ekrem", "can", "berat", "zehra"]
+#Ali listede var mı?
+print ("ali" in liste)
+print ("Listede olanlar...")
+for ad in liste:
+    print (ad)
