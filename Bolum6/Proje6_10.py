@@ -1,6 +1,6 @@
 """ Çocuklar için Python, Bülent Çobanoğlu
-Proje 8. 
-Ekran çıktısı yukarıda verilen çarpım tablosunu kodlayalım.
+Proje 10. 
+Çarpım tablosunu ekrana basacak programı kodlayalım.
 
 """
 for A in range(1,11): 
