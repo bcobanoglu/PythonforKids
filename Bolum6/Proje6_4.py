@@ -1,5 +1,5 @@
-"""
-Proje 6.3. 
+"""Çocuklar için Python
+Proje 6.4. 
 Girilen sayı sıfırdan farklı olduğu sürece o sayının karesini alan programı kodlayalım. 
 """
 S = 1
