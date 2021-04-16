@@ -1,6 +1,7 @@
 """
+@author: Bülent Çobanoğlu
 Çocuklar için Python
-Proje 6.4. 
+Proje 6.5. 
 1’den 100’e kadar olan tek sayıların toplamını bulan programı kodlayalım.
 """
 a = 1
