@@ -1,3 +1,7 @@
+"""Çocuklar için Python,Bülent Çobanoğlu
+Proje 10.5. Tic-Tac-Toe (XOX) Oyunu
+Tic-Tac-Toe (XOX) Oyununu sözlük yapısını kullanarak kodlayalım.
+"""
 #1.Tic-tac-toe tahta yerleşim şeklini çizdirelim:
 print ("1|2|3\n-+-+-\n4|5|6\n-+-+-\n7|8|9")
 #Tahta sözlük yapısının anahtar ve değerlerine atama yapılıyor
