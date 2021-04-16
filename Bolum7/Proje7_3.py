@@ -1,4 +1,4 @@
-"""
+"""Çocuklar için Python kitabı, Bülent Çobanoğlu
 Proje 7.3. 
 Ana programda (main fonksiyonunda) girilen Fahrenhayt sıcaklığını (F°) cevir isimli fonksiyonla Dereceye (C°) çeviren ve çevrim sonucunu ana programda gösteren programı yazalım. 
 
