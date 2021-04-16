@@ -1,5 +1,5 @@
 """ Bülent Çobanoğlu, Python for Kids
-Proje 9.7. 
+Proje 9.8. 
 Yığına eleman ekleme ve çıkarma işlemlerini liste fonksiyonlarını kullanarak gerçekleştirelim.
 
 """
