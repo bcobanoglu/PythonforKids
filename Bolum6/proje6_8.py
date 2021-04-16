@@ -1,4 +1,5 @@
-"""Proje 6.8. Sonsuz Döngü: Trafik Sinyalizasyon Sistemi
+"""Bülent Çobanoğlu
+Proje 6.8. Sonsuz Döngü: Trafik Sinyalizasyon Sistemi
 """
 # Trafik Lambası Programı
 while True:
