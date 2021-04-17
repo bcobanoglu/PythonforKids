@@ -2,7 +2,7 @@
 Proje12_10: Hangman oyunu
 '''
 from random import choice
-liste = ["python", "swift", "java", "ruby", "php", "basic", "cobol", "delphi" ]
+liste = ["python", "swift", "java", "ruby", "php", "basic", "javascipt", "cobol", "scratch", "delphi" ]
 #Listeden rasgele bir kelime seç
 hangman = ['''
              +-+
@@ -68,7 +68,7 @@ while hak > 0:
         hak = hak - 1
         yanlisHarf.append(girHarf)
 
-if hak:
+if hak!=0:
     print("Tebrikler, Evet : ", kelime)
 else:
     print("Maalesef kelimemiz : ", kelime)
