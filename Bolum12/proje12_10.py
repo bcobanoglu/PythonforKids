@@ -1,4 +1,6 @@
-# Hangman oyunu
+'''Çocuklar için Python, Bülent Çobanoğlu
+Proje12_10: Hangman oyunu
+'''
 from random import choice
 liste = ["python", "swift", "java", "ruby", "php", "basic", "cobol", "delphi" ]
 #Listeden rasgele bir kelime seç
