@@ -1,23 +1,16 @@
-"""Bülent Çobanoğlu,
-Proje 13.2. 
-Grafik ekranına klavyedeki yön tuşlarını kullanarak çizim yapan programı kodlayalım.
+"""Çocuklar için Python, Bülent Çobanoğlu
+Proje13_2: İçiçe Kare Çizimi
 """
 from turtle import *
-shape('turtle') #kaplumbağa
-pensize(3)#kalem kalınlığı
-setup(300,300)#Çizim ekran boyutu
-#yön tuşları için fonksiyonlar
-def solaDon():
-    left(10)
-    write("Sola!")
-def sagaDon():
-    right(10)
-    write("Sağa!")
-def gitIleri():
-    forward(20) #20 birim ilerle
-# Tuş fonksiyonları
-onkeypress(solaDon, 'Left') #sol ok tuşu
-onkeypress(sagaDon, 'Right') #sağ ok tuşu
-onkeypress(gitIleri, 'Up') #yukarı ok tuşu
-listen() #basılan tuşu dinle
-mainloop() #olay yakalama döngüsü
+#kare çizme fonksiyonu
+def kareCiz(mesafe):
+    for x in range(1, 5):
+        forward(mesafe)
+        left(90)
+#Ana program
+shape('blank')#Kaplumbağa simgesi yok
+pensize(2)#kalem kalınlığı 2 birim
+#iç içe 3 kare çiz
+kareCiz(50)
+kareCiz(100)
+kareCiz(150)
