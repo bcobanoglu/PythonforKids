@@ -1,0 +1,3 @@
+yilan.py dosyası prje14_4.py dosyasına ses dosyalarının eklenmiş halidir.
+Detaylar için Pusula yayınlarından çıkan 'Çocuklar için Python' kitabımıza bakmanızı tavsiye ederim.
+Bülent Çobanoğlu
