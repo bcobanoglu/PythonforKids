@@ -2,17 +2,30 @@
 Proje 14.3. Klavyeden space (uzun çubuk) tuşuna basıldıkça durum değiştiren bir trafik ışık sistemini kodlayalım.
 """
 from turtle import *
-setup(300, 600)#çerçeve boyutu
-title("Trafik ışıkları!") #çerçeve başlığı
+wn = Screen() #wn:Ekran değişkeni
+#Artık program içerisinde Screen() nesnesi yerine ‘wn’ kullanılacak
+wn.setup(300,600) #Çizim ekranı çerçeve boyutu
+wn.title("Trafik ışıkları!") #çerçeve başlığı
 pensize(3) #çizim kalemi uç kalınlığı
-trfkDurum = 0#Yeşil(0),Sarı(1),Kırmızı(2) 
-#dikdörtgen levhayı çizen fonksiyon
+#Trafik durumunu gösteren değişken: trfkDurum
+#Yeşil: 0, Sarı: 1, Kırmızı: 2
+trfkDurum = 0
+#Dikdörtgen levhayı çizen fonksiyon
 def levhaCiz():
-    for i in range(2): 
-        forward(80)  #kısa kenar
+    for i in range(2):
+        forward(80) #kısa kenar
         left(90)
-        forward(225) #uzun kenar
+        forward(220) #uzun kenar
         left(90)
+#Lambayı çizen fonksiyon
+def lambaCiz():
+    penup() #çizim kalemini kaldır
+    goto(40,40) #çizim için 40,40 koordinatlarına konumlan
+    left(90) #sola dön
+    fillcolor("green") #ilk önce ışığı yeşil yap
+    shape("circle") #Lamba şeklini seç
+    shapesize(3) #lambanın büyüklüğü
+
 #Işık geçişlerini sağlayan fonksiyon
 def durumMakinesi():
     global trfkDurum #global değişken
@@ -32,14 +45,9 @@ def durumMakinesi():
         fillcolor("green") #ışığı yeşil yap
         trfkDurum  = 0 #durumu değiştir 
 #Ana program
-levhaCiz()#levhaCiz fonk. çağrıldı
-penup()#kalemi kaldır
-goto(40,40) #lambayı konumlandır
-left(90) #sola dön
-fillcolor("green")#ilk önce yeşil
-shape("circle")#Lamba şeklini seç
-shapesize(3) #lambanın büyüklüğü
-#Işık geçişleri için space tuşuna bas
-onkey(durumMakinesi, "space")
-listen() #Olayları dinle    
-mainloop() #Olay yakalama döngüsü
+levhaCiz()#levhaCiz fonksiyonu çağrıldı
+lambaCiz()#lambaCiz fonksiyonu çağrıldı
+#Işık durum geçişleri fonksiyonu için space tuşuna bas
+wn.onkey(durumMakinesi, "space")
+wn.listen() #Olayları dinle
+wn.mainloop() #Olay yakalama döngüsünü başlat
